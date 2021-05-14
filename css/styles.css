@@ -1,0 +1,207 @@
+/* Main elements */
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: "Playfair Display", serif;
+    font-weight: 400;
+    text-align: center;
+    background-color: rgb(12, 8, 8);
+}
+
+h1,
+h2,
+h3 {
+    font-family: "Sedgwick Ave", cursive;
+    font-weight: 900;
+}
+
+p {
+    color: #5e5858;
+    font-family: "Playfair Display", serif;
+    text-align: center;
+    line-height: 1rem;
+    margin: 0rem 0 4rem 0;
+}
+
+#new-album p {
+    margin-top: 0;
+}
+
+a i,
+a {
+    text-decoration: none;
+    color: #797574;
+}
+
+
+/* Heading */
+
+.main-heading {
+    display: flex;
+    justify-content: center;
+    font-family: 900;
+    font-size: 1.6rem;
+    word-spacing: 15px;
+    line-height: 1.8;
+    align-items: center;
+    padding-bottom: 2px;
+}
+
+.main-heading top-container {
+    padding-top: 15px;
+}
+
+.section-heading {
+    justify-content: center;
+    font-size: 0.1 rem;
+    line-height: 1.5;
+    font-family: 400;
+    text-align: left;
+}
+
+
+/* Containers */
+
+.container-fluid {
+    justify-content: center;
+    padding: 7% 20%;
+    width: 100vw;
+}
+
+
+/* Sections */
+
+.styled-section {
+    background-color: rgba(15, 12, 12, 0.096);
+    color: #ffffff;
+}
+
+#album {
+    padding: 10% 0% 0% 0%;
+}
+
+.form-section {
+    align-items: center;
+    background-color: #fff;
+    color: black;
+    font-size: 0.6rem;
+    text-align: center;
+    line-height: 2.5;
+    padding: 2% 20%;
+    margin: 12% 0;
+    border: 2% 0;
+}
+
+.form1 {
+    display: inline-block;
+    padding: 0%;
+}
+
+
+/* Navigation Bar */
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    padding: 0 0 4.5rem 0;
+}
+
+.navbar-collapse {
+    text-align: center;
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: flex-end;
+    font-family: "Playfair Display", serif;
+    font-size: 1.0rem;
+    font-weight: bold;
+    padding: 0rem 4rem;
+    margin: 1rem 4rem;
+}
+
+.nav-item {
+    display: flex;
+    justify-content: center;
+}
+
+.nav-item1 {
+    display: flex;
+    justify-content: center;
+    margin: 0 0 10rem 0;
+    padding: 0 10rem;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: "Montserrat";
+    font-weight: 300;
+    list-style: none;
+}
+
+
+/* Title Section */
+
+#title .container-fluid {
+    padding: 3% 15% 7%;
+    text-align: center;
+}
+
+
+/* Images */
+
+.title-image {
+    height: 20rem;
+    width: 20rem;
+    position: relative;
+    transform: translate(0.5%, -0.2%);
+}
+
+.title-image2 {
+    height: 20rem;
+    width: 20rem;
+    position: relative;
+    transform: translate(0.5%, -0.2%);
+}
+
+
+/* Button */
+
+.submit-button {
+    font-size: 1rem;
+    border-radius: 1px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-transform: none;
+    width: 125px;
+    height: 40px;
+    margin: 1.125rem auto 0;
+    padding: 2px 20px 0;
+    background: none;
+    background-color: 0 0;
+    border: 0.1rem solid;
+    line-height: 2;
+    z-index: -1;
+    cursor: pointer;
+    letter-spacing: .1rem;
+    background: white;
+    color: rgb(12, 10, 10);
+    cursor: pointer;
+}
+
+.submit-button:hover {
+    background-color: rgb(87, 48, 48);
+    color: white;
+}

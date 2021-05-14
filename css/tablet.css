@@ -1,0 +1,11 @@
+@media (max-width: 1024px) {
+    #title .container-fluid {
+        text-align: center;
+    }
+    .container-fluid {
+        text-align: center;
+    }
+    .title-image {
+        position: static;
+    }
+}
